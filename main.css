@@ -1,0 +1,82 @@
+body{
+    background-image: url("./images/suites.jpg" );
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: top;
+    background-size: cover;
+}
+img {
+    width: 50px;
+    max-height: auto;
+    top: 0;
+    left: 0;
+}
+.js-start, .js-questionsForm{
+    border: 2px white solid;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.js-start{
+    padding: 10px 10px;
+}
+header div{
+    float: right;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+header div span{
+    margin: 10px;
+}
+.startButton, .submitButton {
+    width: 70px;
+    height: 50px;
+    background-color: green;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+button:hover {
+    background-color: red;
+}
+.js-questionsForm, .js-start{
+    width: 50%;
+    color: white;
+    background-color: black;
+}
+.js-questionsForm {
+    display: none;
+    height: auto;
+}
+fieldset ol{
+    text-align: left;
+    font-size: 20px;
+}
+.submitButton{
+    width: 100px;
+}
+.js-start{
+    text-align: center;
+}
+fieldset{
+    border: none;
+    text-align: center;
+}
+form{
+    padding: 10px;
+}
+.question{
+    padding: 20px;
+}
+label:hover{
+    background-color: green;
+    color: black;
+    font-weight: bold;
+}
+input[name="answer"]:checked{
+    background-color: white;
+}
