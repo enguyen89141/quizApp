@@ -9,13 +9,13 @@ const STORE = [
         'Middle Position'
         ],
       correctAnswer: 'The Button',
-      correctIcon: 'https://imgur.com/NraWgrM',
-      wrongIcon: 'https://imgur.com/CnJsBy2',
+      correctIcon: 'https://imgur.com/NraWgrM.png',
+      wrongIcon: 'https://imgur.com/CnJsBy2.png',
       correctAlt: 'Doyle Brunson tipping his hat',
       wrongAlt:'Animated drawing of a person cupping his face in his hands'
     },
     {
-      question: 'How many outs do you have when you have a "flush draw" on teh flop?',
+      question: 'How many outs do you have when you have a "flush draw" on the flop?',
       answers: [
         '4',
         '9',
@@ -23,8 +23,8 @@ const STORE = [
         '8'
         ],
         correctAnswer: '9',
-        correctIcon: 'https://imgur.com/NraWgrM',
-        wrongIcon: 'https://imgur.com/CnJsBy2',
+        correctIcon: 'https://imgur.com/NraWgrM.png',
+        wrongIcon: 'https://imgur.com/CnJsBy2.png',
         correctAlt: 'Doyle Brunson tipping his hat',
         wrongAlt:'Animated drawing of a person cupping his face in his hands'
     },
@@ -37,8 +37,8 @@ const STORE = [
         'Royal Flush'
         ],
         correctAnswer: 'Royal Flush',
-        correctIcon: 'https://imgur.com/NraWgrM',
-        wrongIcon: 'https://imgur.com/CnJsBy2',
+        correctIcon: 'https://imgur.com/NraWgrM.png',
+        wrongIcon: 'https://imgur.com/CnJsBy2.png',
         correctAlt: 'Doyle Brunson tipping his hat',
         wrongAlt:'Animated drawing of a person cupping his face in his hands'
     },
@@ -50,9 +50,9 @@ const STORE = [
         'Any Pocket Pair',
         'Any Suited Connectors'
         ],
-      correctAnswer: '65 suited',
-      correctIcon: 'https://imgur.com/NraWgrM',
-      wrongIcon: 'https://imgur.com/CnJsBy2',
+      correctAnswer: '65 Suited',
+      correctIcon: 'https://imgur.com/NraWgrM.png',
+      wrongIcon: 'https://imgur.com/CnJsBy2.png',
       correctAlt: 'Doyle Brunson tipping his hat',
       wrongAlt:'Animated drawing of a person cupping his face in his hands'
     },
@@ -65,9 +65,10 @@ const STORE = [
         'Under The Gun'
         ],
       correctAnswer: 'Small Blind',
-      correctIcon: 'https://imgur.com/NraWgrM',
-      wrongIcon: 'https://imgur.com/CnJsBy2',
+      correctIcon: 'https://imgur.com/NraWgrM.png',
+      wrongIcon: 'https://imgur.com/CnJsBy2.png',
       correctAlt: 'Doyle Brunson tipping his hat',
       wrongAlt:'Animated drawing of a person cupping his face in his hands'
     }
 ];
+const RESULTS = [ "https://imgur.com/uw3OsYS","https://imgur.com/ElopCps"]
