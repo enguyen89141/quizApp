@@ -1,6 +1,7 @@
 'use strict'
 let questionNumber = 0;
 let score = 0;
+let questionCount = 0;
 //generate Question html
 function generateQuestion() {
     //checks to make sure no error is encountered if by chance the system goes onto question 6
@@ -92,9 +93,11 @@ function submitAnswer() {
             rightAnswer();
             updateScore();
             nextQuestion();
+            questionNumber++;
         } else {
             wrongAnswer();
             nextQuestion();
+            questionNumber++;
         }
     });
 }
@@ -125,8 +128,10 @@ function updateScore() {
 }
 //updates question number 
 function updateQuestionNumber() {
-    questionNumber++;
-    $(".questionNumber").text(`${questionNumber}`)
+    if (questionCount < STORE.length) {
+    questionCount++;
+    $(".questionNumber").text(`${questionCount}`)
+    }
 }
 //generates next question
 function nextQuestion(){
@@ -137,9 +142,10 @@ function nextQuestion(){
 }
 //combines above functions into a single one
 function quizApp(){
-    submitAnswer();
-    generateQuestion();
     startQuiz();
+    generateQuestion();
+    submitAnswer();
+
 }
 
 quizApp();

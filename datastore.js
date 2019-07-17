@@ -1,7 +1,7 @@
 'use strict'
 const STORE = [
     {
-      question: '1.	What is the best position to be in?',
+      question: 'What is the best position to be in?',
       answers: [
         'Small Blind',
         'The Button',
